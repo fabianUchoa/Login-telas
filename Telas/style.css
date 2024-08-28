@@ -55,7 +55,7 @@ header > img{
 
 .inputLabel{
     position: absolute;
-    top:13px;
+    top:15px;
     left: 23px;
     color: lightgray;
     transition: .5s;
@@ -72,6 +72,7 @@ header > img{
     padding: 16px;
     border-radius: 11px;
     display: block;
+    font-size: 16px;
     box-sizing: border-box;
     transition: .5s;
 }
