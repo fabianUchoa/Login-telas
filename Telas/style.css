@@ -1,0 +1,106 @@
+*{
+    
+}
+
+body, html{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    background-image: linear-gradient(to right, rgba(255, 182, 193, 0.488), lightcyan 15%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+main{
+    margin: auto;
+    width: 100% ;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+header > img{
+    align-self: self-end;
+    width: 80px;
+    height: 80px;
+}
+
+.inputBox{
+    position: relative;
+    margin: 6px;
+    width: 100%;
+    
+}
+
+.inputLabel{
+    position: absolute;
+    top:10px;
+    left: 23px;
+    color: lightgray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+    font-weight: lighter;
+    font-size: 13px;
+    margin-left: 2px;
+}
+
+#user, #password, #login, #nAccount{
+    border: 1px solid lightgray;
+    width: 95%;
+    margin: auto;
+    padding: 12px;
+    border-radius: 11px;
+    display: block;
+    box-sizing: border-box;
+}
+
+#login{
+    border: none;
+    border-radius: 30px;
+    justify-items: center;
+    padding: 10px;
+    background-color: rgb(54, 54, 252);
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 14px;   
+}
+
+footer{
+    align-self: flex-end;
+    margin: 10px;
+    width: 100%;
+}
+
+#nAccount{
+    border: 1px solid blue;
+    background:none;
+    color: blue;
+    letter-spacing: 0.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+footer > img{
+    height: 30px;
+}
