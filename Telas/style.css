@@ -19,7 +19,6 @@ body{
 
 main{
     margin: auto;
-    width: 100% ;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -88,7 +87,11 @@ header > img{
 }
 
 #login:hover, #nAccount:hover{
-    transform: scale(1.001);
+    transform: scale(1.03);
+}
+
+#login:active, #nAccount:active{
+    transform: scale(0.9);
 }
 
 
