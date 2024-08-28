@@ -27,6 +27,8 @@ function verificaPW(){
     if(password === password2){
         cadastrar(password)
     }else{
-        /*DEVOLVE TEXTO DIZENDO QUE AS SENHAS NAO SAO IGUAIS*/
+        let aviso = document.createElement('p')
+        
+        aviso.innerHTML = '❗ Senhas não coincidem'
     }
 }
