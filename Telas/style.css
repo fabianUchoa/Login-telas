@@ -9,7 +9,7 @@ body, html{
 }
 
 body{
-    background-image: linear-gradient(100deg, rgba(253, 190, 200, 0.407), lightcyan 40%);
+    background-image: linear-gradient(100deg, rgba(253, 190, 200, 0.407),rgba(0, 0, 0, 0.049), lightcyan 40%, rgb(0, 0, 0) 200%);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
