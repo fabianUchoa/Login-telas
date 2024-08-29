@@ -16,6 +16,11 @@ function cadastrar(){
     let mail = document.getElementById('user')
     let password = document.getElementById('password')
 
+}
+
+function verificaM(){
+    let mail = document.getElementById('user')
+
 
 }
 
@@ -28,7 +33,7 @@ function verificaPW(){
         cadastrar(password)
     }else{
         let aviso = document.createElement('p')
-        
         aviso.innerHTML = '❗ Senhas não coincidem'
+        document.querySelector('main').appendChild(aviso)
     }
 }

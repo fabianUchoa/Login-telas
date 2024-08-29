@@ -64,7 +64,7 @@ header > img{
     pointer-events: none;
 }
 
-#user, #password, #login{
+#user, #password, #login, #password2{
     border: 1px solid lightgray;
     width: 95%;
     margin: auto;
